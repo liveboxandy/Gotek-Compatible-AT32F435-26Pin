@@ -1,0 +1,4428 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a745de8c-9216-4cf7-9a91-94bf71b6bd6b")
+	(paper "A4")
+	(title_block
+		(title "Gotek(?) Handrawn Schematic, Layout and Gerbers")
+		(date "2025-02-20")
+		(rev "1.0")
+		(company "LiveBoxAndy")
+		(comment 1 "chip were removed to allow the routing underneath to be checked.")
+		(comment 2 "with the cable interface from an SFR1M44-DU26 (SFRC2D.B). The processor and the 74 ")
+		(comment 3 "Based on pictures and meter readings of an SRFKC30.AT4.35 for the processor bits mated")
+		(comment 4 "Correct JK1 and J8 Pin Idents. Point-Point wiring did not change.")
+	)
+	(lib_symbols
+		(symbol "74xx:74AHC04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC04"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex Inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "AHCMOS not inv"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHC04_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHC04_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Gotek:PMBT2222A,215"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PMBT2222A,215"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PMBT2222A215"
+				(at 13.97 -101.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+				(at 13.97 -201.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 13.97 -401.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PMBT2222A-T/R"
+				(at 13.97 -501.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+				(at 13.97 -601.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 13.97 -701.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PMBT2222A,215"
+				(at 13.97 -801.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PMBT2222A,215_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 4.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 132.08 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ceb13ba-0129-4439-888b-6305a4849c69")
+	)
+	(junction
+		(at 122.174 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d1d5aa-4057-4b77-b6ee-3ee7931c2bef")
+	)
+	(junction
+		(at 179.578 59.944)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "599c62a9-ed1e-4731-a8eb-1c403c823629")
+	)
+	(junction
+		(at 179.578 34.544)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ec036b-fe1a-40c5-8d72-4737b289bfd0")
+	)
+	(wire
+		(pts
+			(xy 145.288 53.34) (xy 143.002 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079e29d7-745a-4107-a66f-e9a90aea5b75")
+	)
+	(wire
+		(pts
+			(xy 103.378 87.63) (xy 104.648 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c37f65e-46fc-4e3f-bf83-7d77587be9fe")
+	)
+	(wire
+		(pts
+			(xy 123.698 69.342) (xy 122.174 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d541948-fb04-4754-b60b-14e9c929008a")
+	)
+	(wire
+		(pts
+			(xy 192.532 41.656) (xy 192.532 34.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ba46fe-f1f1-4c32-b81c-2d3ea6b9e54f")
+	)
+	(wire
+		(pts
+			(xy 122.174 60.96) (xy 123.952 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6cb831-58ba-4689-b03d-c48cf210f562")
+	)
+	(wire
+		(pts
+			(xy 141.732 27.94) (xy 139.192 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e649f5-cc5d-4cd1-a63e-8c86dc664929")
+	)
+	(wire
+		(pts
+			(xy 192.532 34.544) (xy 179.578 34.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba052a8-57d9-4565-9e8a-d8bd52f38331")
+	)
+	(wire
+		(pts
+			(xy 192.532 59.944) (xy 179.578 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3102770f-dbd9-4223-89a3-1e3f19b5c800")
+	)
+	(wire
+		(pts
+			(xy 68.58 28.194) (xy 66.548 28.194)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c275c8-1efa-40f1-8d95-ad602bbf0a16")
+	)
+	(wire
+		(pts
+			(xy 142.748 95.25) (xy 142.748 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1d32dd-a7af-418f-bd42-ad4cd4802f49")
+	)
+	(wire
+		(pts
+			(xy 69.088 75.438) (xy 66.04 75.438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e7f8ab-c36d-4328-a2d2-3bad66057817")
+	)
+	(wire
+		(pts
+			(xy 179.578 60.452) (xy 179.578 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747fdd20-ef88-4c59-8e93-e3c7b3b373a9")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.842 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88986dd5-a00b-4f90-8b27-dd569cfc7abe")
+	)
+	(wire
+		(pts
+			(xy 48.006 56.642) (xy 46.99 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b198ed1-bbfd-407f-85be-34f9ecae05c5")
+	)
+	(wire
+		(pts
+			(xy 69.088 49.022) (xy 65.786 49.022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efcab41-31c7-44f8-b508-f22da5283696")
+	)
+	(wire
+		(pts
+			(xy 122.174 69.342) (xy 122.174 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95dfa7f0-2e54-407f-a6c8-73e260ecc8cb")
+	)
+	(wire
+		(pts
+			(xy 179.578 34.036) (xy 179.578 34.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b295fd7-db02-4a1d-af7f-03ca32c4d56e")
+	)
+	(wire
+		(pts
+			(xy 145.542 80.01) (xy 142.748 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2d71ec-f99e-4a02-942e-b2f0392dda8b")
+	)
+	(wire
+		(pts
+			(xy 192.532 49.276) (xy 192.532 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ea7f9d-9240-49bb-91fc-02e91f85bf3a")
+	)
+	(wire
+		(pts
+			(xy 131.572 60.96) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb234df-8935-4f50-a693-20c84cc177e6")
+	)
+	(wire
+		(pts
+			(xy 119.634 60.96) (xy 122.174 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db33c94e-5af3-4af2-accd-4ed443ea9af5")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e848565d-1348-48dc-882f-471c98889be2")
+	)
+	(wire
+		(pts
+			(xy 119.888 87.63) (xy 124.968 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedcefab-2230-469e-9c2a-13f3c0ac4f7a")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.342) (xy 131.318 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b77f4e-ae7d-499e-a2e8-a80100dbed59")
+	)
+	(global_label "WPROT_3V3"
+		(shape input)
+		(at 33.02 83.058 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1eef49f2-d3a2-4e60-bb11-9d63d4090eaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.2701 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "READY"
+		(shape output)
+		(at 145.542 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3765b7c9-0cf6-450f-98ad-4f6c6eaede08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3934 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RDATA"
+		(shape output)
+		(at 145.288 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "435df344-4518-46ed-9baf-628c491bf524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.958 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRK0"
+		(shape output)
+		(at 69.088 49.022 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48faf12d-9cec-4b4b-a95a-6e635ca3b9b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.7903 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INDEX_3V3"
+		(shape input)
+		(at 33.528 35.814 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5011bbf7-5faa-4a91-86e2-d17e5690645b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.5038 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRK0_3V3"
+		(shape input)
+		(at 31.75 56.642 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "543bb9ef-e9ec-4732-9691-b7a8d0bde2fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5725 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WPROT"
+		(shape output)
+		(at 69.088 75.438 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74c6d132-6493-4f52-9119-9de33c50f9d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.3627 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHNG_3V3"
+		(shape input)
+		(at 106.172 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87871108-3561-4518-9d42-5a540e3b6f7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.5106 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "READY_3V3"
+		(shape input)
+		(at 103.378 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f5e2a8a-7843-43f8-9ec8-9897509ab8d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.0514 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INDEX"
+		(shape output)
+		(at 68.58 28.194 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e67a5e7-b64b-4693-abff-82256b257a50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.129 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHNG"
+		(shape output)
+		(at 141.732 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cea4bbb9-3ca5-485c-b30a-afe914b42543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.9182 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RDATA_3V3"
+		(shape input)
+		(at 104.394 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8d17871-fa3e-42f8-ab5e-9ed15f17c8fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2488 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.778 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0aca03b1-dede-471f-b09e-ede87e1630ab")
+		(property "Reference" "RN4"
+			(at 128.778 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 128.778 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.778 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.778 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.778 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "895b5969-d3ff-4919-8080-789b34678f95")
+		)
+		(pin "1"
+			(uuid "f708443b-848f-45c7-ac6f-6d7dd323e0d6")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.548 43.434 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e0fabfd-4d0f-4313-afb8-b0cd10a1dd04")
+		(property "Reference" "#PWR014"
+			(at 66.548 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.548 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.548 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.548 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.548 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b75fe2-dd2b-4a3f-92f2-7297296d8397")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 40.64 83.058 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36a7955a-4d37-4722-9873-84c6411b1f73")
+		(property "Reference" "U1"
+			(at 40.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 40.64 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 40.64 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 40.64 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01193117-7832-4d09-baa7-9a4c0e924368")
+		)
+		(pin "8"
+			(uuid "0fe12de2-4943-4251-ae76-af8309364508")
+		)
+		(pin "12"
+			(uuid "906e1a55-dcf0-40b2-b5e0-2b8bbdf94733")
+		)
+		(pin "1"
+			(uuid "d7bd63ef-1afe-40d5-8d1c-779a0421dfcb")
+		)
+		(pin "7"
+			(uuid "66cf389c-8cb3-4d27-8906-3a53df8268d5")
+		)
+		(pin "5"
+			(uuid "efeeb169-efa2-4599-8275-a8d7156b9ca3")
+		)
+		(pin "9"
+			(uuid "5fc5b2eb-cceb-40bf-9820-e3f7c335fa03")
+		)
+		(pin "10"
+			(uuid "a300babf-3e78-40b0-831f-5bfc589f89a3")
+		)
+		(pin "14"
+			(uuid "5e2e8f3d-0481-4dca-9565-d1ad8543ca3d")
+		)
+		(pin "13"
+			(uuid "956d1211-fe97-4bca-bc02-500c386e737a")
+		)
+		(pin "11"
+			(uuid "b5d4b8c9-3e3d-417b-a095-56b13fa3c949")
+		)
+		(pin "3"
+			(uuid "7ed8cb21-54fc-4706-8e88-b72fe3bcc99b")
+		)
+		(pin "4"
+			(uuid "a0f88a7b-0bd3-4e7c-b90f-f4a8f1cf37f9")
+		)
+		(pin "6"
+			(uuid "e87c9f0e-15ad-4e51-a69b-86155f1d331c")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 39.37 56.642 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d71559-bb3d-4c39-8c03-8fece25664f8")
+		(property "Reference" "U1"
+			(at 39.37 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 39.37 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 39.37 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 39.37 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 39.37 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01193117-7832-4d09-baa7-9a4c0e92436a")
+		)
+		(pin "8"
+			(uuid "0fe12de2-4943-4251-ae76-af830936450a")
+		)
+		(pin "12"
+			(uuid "906e1a55-dcf0-40b2-b5e0-2b8bbdf94735")
+		)
+		(pin "1"
+			(uuid "d7bd63ef-1afe-40d5-8d1c-779a0421dfcd")
+		)
+		(pin "7"
+			(uuid "66cf389c-8cb3-4d27-8906-3a53df8268d7")
+		)
+		(pin "5"
+			(uuid "cc5fa2f0-53b2-4503-8705-03b02117206b")
+		)
+		(pin "9"
+			(uuid "5fc5b2eb-cceb-40bf-9820-e3f7c335fa05")
+		)
+		(pin "10"
+			(uuid "a300babf-3e78-40b0-831f-5bfc589f89a5")
+		)
+		(pin "14"
+			(uuid "5e2e8f3d-0481-4dca-9565-d1ad8543ca3f")
+		)
+		(pin "13"
+			(uuid "956d1211-fe97-4bca-bc02-500c386e737c")
+		)
+		(pin "11"
+			(uuid "b5d4b8c9-3e3d-417b-a095-56b13fa3c94b")
+		)
+		(pin "3"
+			(uuid "58a951de-408a-4610-8cf3-3d90bf3bd362")
+		)
+		(pin "4"
+			(uuid "69ddbc2a-5388-47ee-a50e-b63c765fc351")
+		)
+		(pin "6"
+			(uuid "96ae6b98-e45d-49e5-9ced-699ed65dc8ef")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek:PMBT2222A,215")
+		(at 55.626 56.642 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45bf79d4-8a1d-4e63-846c-ffd440d07b25")
+		(property "Reference" "Q2"
+			(at 70.104 55.3719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMBT2222A,215"
+			(at 70.104 57.9119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gotek:SOT95P280X130-3N"
+			(at 69.596 157.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+			(at 69.596 257.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+			(at 55.626 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 69.596 457.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMBT2222A-T/R"
+			(at 69.596 557.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+			(at 69.596 657.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 69.596 757.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMBT2222A,215"
+			(at 69.596 857.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fea3f2-054d-4acc-9285-44afcc953922")
+		)
+		(pin "3"
+			(uuid "f6972809-aa2e-419c-b597-abd207d67183")
+		)
+		(pin "2"
+			(uuid "06556d00-9fb0-49be-b8fd-bec8bbd43169")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 113.792 35.56 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fffd100-3e55-4c92-8a7e-bd08d75008a7")
+		(property "Reference" "U1"
+			(at 113.792 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 113.792 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 113.792 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 113.792 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 113.792 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01193117-7832-4d09-baa7-9a4c0e924369")
+		)
+		(pin "8"
+			(uuid "0fe12de2-4943-4251-ae76-af8309364509")
+		)
+		(pin "12"
+			(uuid "b5e1561d-4b78-4095-9308-65eb4fe7cca3")
+		)
+		(pin "1"
+			(uuid "d7bd63ef-1afe-40d5-8d1c-779a0421dfcc")
+		)
+		(pin "7"
+			(uuid "66cf389c-8cb3-4d27-8906-3a53df8268d6")
+		)
+		(pin "5"
+			(uuid "cc5fa2f0-53b2-4503-8705-03b02117206a")
+		)
+		(pin "9"
+			(uuid "5fc5b2eb-cceb-40bf-9820-e3f7c335fa04")
+		)
+		(pin "10"
+			(uuid "a300babf-3e78-40b0-831f-5bfc589f89a4")
+		)
+		(pin "14"
+			(uuid "5e2e8f3d-0481-4dca-9565-d1ad8543ca3e")
+		)
+		(pin "13"
+			(uuid "c9ae2f5d-6f74-4862-9ecd-67e2ee092ce7")
+		)
+		(pin "11"
+			(uuid "b5d4b8c9-3e3d-417b-a095-56b13fa3c94a")
+		)
+		(pin "3"
+			(uuid "7ed8cb21-54fc-4706-8e88-b72fe3bcc99c")
+		)
+		(pin "4"
+			(uuid "a0f88a7b-0bd3-4e7c-b90f-f4a8f1cf37fa")
+		)
+		(pin "6"
+			(uuid "96ae6b98-e45d-49e5-9ced-699ed65dc8ee")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127.762 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5029fe23-992c-449b-a7ef-4367a530faf5")
+		(property "Reference" "RN5"
+			(at 127.762 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 127.762 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.762 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127.762 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7024d4b6-6024-412e-a1bb-5051a0ea0bdb")
+		)
+		(pin "1"
+			(uuid "dd3b310f-bd07-4efb-a22d-e8571f9d1546")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.222 35.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f66d6da-4f62-4bee-975a-ef1d2fc4ccd3")
+		(property "Reference" "RN6"
+			(at 125.222 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 125.222 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.222 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.222 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.222 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc37a830-2130-4a9c-9b9d-e0ceb8d2c7d5")
+		)
+		(pin "1"
+			(uuid "537c8a0a-244c-4bc6-b079-69391d7e2f12")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "RN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 51.816 56.642 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6478222b-c048-426d-bfc1-ea13a90382b2")
+		(property "Reference" "RN2"
+			(at 51.816 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 51.816 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 51.816 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 51.816 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 51.816 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d0d227b-b867-40b2-ac0a-16bcd601d22e")
+		)
+		(pin "1"
+			(uuid "88aacc50-8d2d-4343-94d9-57701d2ac136")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.002 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd4bf52-bd6e-4c75-94b5-1eb51208b9db")
+		(property "Reference" "#PWR016"
+			(at 143.002 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.002 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.002 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.002 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f6cda29-ccf2-4790-ac2c-57b6d1f43cf9")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 192.532 45.466 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c024a4c-3148-4e40-86dc-28652ed4db08")
+		(property "Reference" "C20"
+			(at 193.04 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 193.294 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 193.4972 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 192.532 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 192.532 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed8b36a3-28e8-44e4-9e8c-84a90260060e")
+		)
+		(pin "2"
+			(uuid "8cb389c4-7c91-42f5-ae9a-711da302f927")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 83.058 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82cfc8b6-3796-4a03-8da9-27daccc64553")
+		(property "Reference" "RN3"
+			(at 52.07 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 52.07 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 52.07 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2a8054a-c059-4d2e-a76e-ec7c66f84afe")
+		)
+		(pin "1"
+			(uuid "18a4d6b1-befe-4f68-9b0a-6b7100b40eb3")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek:PMBT2222A,215")
+		(at 56.388 35.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90d5e7d4-0c92-479e-a425-20236b96b9b1")
+		(property "Reference" "Q1"
+			(at 70.866 34.5439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMBT2222A,215"
+			(at 70.866 37.0839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gotek:SOT95P280X130-3N"
+			(at 70.358 137.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+			(at 70.358 237.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+			(at 56.388 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 70.358 437.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMBT2222A-T/R"
+			(at 70.358 537.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+			(at 70.358 637.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 70.358 737.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMBT2222A,215"
+			(at 70.358 837.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bc26234-dc63-482b-abb2-4398e8baa88a")
+		)
+		(pin "2"
+			(uuid "76f598ad-08aa-4d1c-92c0-98d423b76897")
+		)
+		(pin "3"
+			(uuid "967ac2a8-3f99-415f-a271-5b422a273f10")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.748 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9470d8ae-4107-437b-bf06-ca5d2b18c893")
+		(property "Reference" "#PWR017"
+			(at 142.748 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.748 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.748 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.748 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.748 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6054f495-9d72-4acb-9fae-4dce1f4e3740")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek:PMBT2222A,215")
+		(at 129.032 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "965424e4-d2bb-4b24-b192-8d5c584c8099")
+		(property "Reference" "Q6"
+			(at 143.51 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMBT2222A,215"
+			(at 143.51 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gotek:SOT95P280X130-3N"
+			(at 143.002 136.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+			(at 143.002 236.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+			(at 129.032 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 143.002 436.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMBT2222A-T/R"
+			(at 143.002 536.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+			(at 143.002 636.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 143.002 736.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMBT2222A,215"
+			(at 143.002 836.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "257d5977-a354-4f6c-8a7d-3b796d38768e")
+		)
+		(pin "2"
+			(uuid "182a45eb-5414-4a77-944c-f76c5f2918a5")
+		)
+		(pin "1"
+			(uuid "39b1de4c-7527-468e-8f39-63536323fcc4")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 179.578 34.036 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a330eaca-b099-4491-b507-3c54389268bc")
+		(property "Reference" "#PWR021"
+			(at 179.578 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 179.578 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.578 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.578 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 179.578 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5559b63-c0c7-4b9a-b875-f9547404fce3")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek:PMBT2222A,215")
+		(at 55.88 83.058 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab3cb504-4041-4366-a0be-7aa2bfc760c0")
+		(property "Reference" "Q3"
+			(at 70.612 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMBT2222A,215"
+			(at 70.612 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gotek:SOT95P280X130-3N"
+			(at 69.85 184.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+			(at 69.85 284.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+			(at 55.88 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 69.85 484.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMBT2222A-T/R"
+			(at 69.85 584.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+			(at 69.85 684.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 69.85 784.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMBT2222A,215"
+			(at 69.85 884.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ebccfba-263e-4f97-8c50-9f8fec211a1c")
+		)
+		(pin "1"
+			(uuid "e5193c8a-3aba-43b3-936f-b64ae6d606f6")
+		)
+		(pin "3"
+			(uuid "0580b6a9-734f-4f78-9291-c1e21ab55816")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 41.148 35.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af75f9fe-1457-4aae-96c1-fd7a2ba332d8")
+		(property "Reference" "U1"
+			(at 41.148 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 41.148 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 41.148 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 41.148 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 41.148 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45e76ac2-48cb-427a-995d-4c1cbb3f475a")
+		)
+		(pin "8"
+			(uuid "0fe12de2-4943-4251-ae76-af8309364505")
+		)
+		(pin "12"
+			(uuid "906e1a55-dcf0-40b2-b5e0-2b8bbdf94730")
+		)
+		(pin "1"
+			(uuid "ac457d56-4eae-453e-9fc9-b26a076d6522")
+		)
+		(pin "7"
+			(uuid "66cf389c-8cb3-4d27-8906-3a53df8268d2")
+		)
+		(pin "5"
+			(uuid "cc5fa2f0-53b2-4503-8705-03b021172066")
+		)
+		(pin "9"
+			(uuid "5fc5b2eb-cceb-40bf-9820-e3f7c335fa00")
+		)
+		(pin "10"
+			(uuid "a300babf-3e78-40b0-831f-5bfc589f89a0")
+		)
+		(pin "14"
+			(uuid "5e2e8f3d-0481-4dca-9565-d1ad8543ca3a")
+		)
+		(pin "13"
+			(uuid "956d1211-fe97-4bca-bc02-500c386e7377")
+		)
+		(pin "11"
+			(uuid "b5d4b8c9-3e3d-417b-a095-56b13fa3c946")
+		)
+		(pin "3"
+			(uuid "7ed8cb21-54fc-4706-8e88-b72fe3bcc998")
+		)
+		(pin "4"
+			(uuid "a0f88a7b-0bd3-4e7c-b90f-f4a8f1cf37f6")
+		)
+		(pin "6"
+			(uuid "96ae6b98-e45d-49e5-9ced-699ed65dc8ea")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.192 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e6f299-77a9-4a72-8631-48df564ba309")
+		(property "Reference" "#PWR015"
+			(at 139.192 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.192 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.192 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.192 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.192 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21712986-642e-4873-8faa-0ec0645f18fa")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek:PMBT2222A,215")
+		(at 132.842 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2d56882-a952-4d48-9731-e08c513f50e2")
+		(property "Reference" "Q5"
+			(at 147.32 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMBT2222A,215"
+			(at 144.018 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gotek:SOT95P280X130-3N"
+			(at 146.812 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+			(at 146.812 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+			(at 132.842 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 146.812 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMBT2222A-T/R"
+			(at 146.812 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+			(at 146.812 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 146.812 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMBT2222A,215"
+			(at 146.812 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1930ab9-20c6-4a19-b406-ae7cdb4a00e0")
+		)
+		(pin "3"
+			(uuid "3d2129eb-040e-45e1-b03c-33b18dc97143")
+		)
+		(pin "1"
+			(uuid "2c27ce96-97e8-4197-9fb4-35504d797241")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 112.268 87.63 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b403a105-b552-44d0-95a0-538879b62388")
+		(property "Reference" "U1"
+			(at 112.268 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 112.268 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 112.268 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 112.268 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 112.268 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01193117-7832-4d09-baa7-9a4c0e92436b")
+		)
+		(pin "8"
+			(uuid "69af14b6-4d19-43aa-ac3f-20668def9bf1")
+		)
+		(pin "12"
+			(uuid "906e1a55-dcf0-40b2-b5e0-2b8bbdf94736")
+		)
+		(pin "1"
+			(uuid "d7bd63ef-1afe-40d5-8d1c-779a0421dfce")
+		)
+		(pin "7"
+			(uuid "66cf389c-8cb3-4d27-8906-3a53df8268d8")
+		)
+		(pin "5"
+			(uuid "cc5fa2f0-53b2-4503-8705-03b02117206c")
+		)
+		(pin "9"
+			(uuid "1c239e19-955d-45b9-8ee0-cc5a129e6748")
+		)
+		(pin "10"
+			(uuid "a300babf-3e78-40b0-831f-5bfc589f89a6")
+		)
+		(pin "14"
+			(uuid "5e2e8f3d-0481-4dca-9565-d1ad8543ca40")
+		)
+		(pin "13"
+			(uuid "956d1211-fe97-4bca-bc02-500c386e737d")
+		)
+		(pin "11"
+			(uuid "b5d4b8c9-3e3d-417b-a095-56b13fa3c94c")
+		)
+		(pin "3"
+			(uuid "7ed8cb21-54fc-4706-8e88-b72fe3bcc99e")
+		)
+		(pin "4"
+			(uuid "a0f88a7b-0bd3-4e7c-b90f-f4a8f1cf37fc")
+		)
+		(pin "6"
+			(uuid "96ae6b98-e45d-49e5-9ced-699ed65dc8f0")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 90.678 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b943315a-aa57-4e24-846b-03e3b77e7c40")
+		(property "Reference" "#PWR013"
+			(at 66.04 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7c492ef-70ae-4e1c-b6da-65e5ab1cb582")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 112.014 60.96 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb311353-dd51-43a7-ace0-3544238bc5ce")
+		(property "Reference" "U1"
+			(at 112.014 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 112.014 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 112.014 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 112.014 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 112.014 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01193117-7832-4d09-baa7-9a4c0e924367")
+		)
+		(pin "8"
+			(uuid "0fe12de2-4943-4251-ae76-af8309364507")
+		)
+		(pin "12"
+			(uuid "906e1a55-dcf0-40b2-b5e0-2b8bbdf94732")
+		)
+		(pin "1"
+			(uuid "d7bd63ef-1afe-40d5-8d1c-779a0421dfca")
+		)
+		(pin "7"
+			(uuid "66cf389c-8cb3-4d27-8906-3a53df8268d4")
+		)
+		(pin "5"
+			(uuid "cc5fa2f0-53b2-4503-8705-03b021172068")
+		)
+		(pin "9"
+			(uuid "5fc5b2eb-cceb-40bf-9820-e3f7c335fa02")
+		)
+		(pin "10"
+			(uuid "13dad630-1ad8-4f0a-8aa4-6002fd0dd4ba")
+		)
+		(pin "14"
+			(uuid "5e2e8f3d-0481-4dca-9565-d1ad8543ca3c")
+		)
+		(pin "13"
+			(uuid "956d1211-fe97-4bca-bc02-500c386e7379")
+		)
+		(pin "11"
+			(uuid "5a1a4a15-6c1b-469a-ac4d-3d09714ebe04")
+		)
+		(pin "3"
+			(uuid "7ed8cb21-54fc-4706-8e88-b72fe3bcc99a")
+		)
+		(pin "4"
+			(uuid "a0f88a7b-0bd3-4e7c-b90f-f4a8f1cf37f8")
+		)
+		(pin "6"
+			(uuid "96ae6b98-e45d-49e5-9ced-699ed65dc8ec")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.578 60.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed6ed66b-f8fb-4db4-9ac2-04fce632757c")
+		(property "Reference" "#PWR020"
+			(at 179.578 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.578 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.578 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.578 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.578 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e868cdbc-fc0a-455e-baf1-75f771354b0d")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.578 35.814 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6060b6-6efc-44dd-98e2-649af897c45a")
+		(property "Reference" "RN1"
+			(at 52.578 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 52.578 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 52.578 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.578 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.578 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d71fa43c-d8cf-447e-94f0-e89419990579")
+		)
+		(pin "1"
+			(uuid "d76a5e3a-eedd-4e6f-9e72-24ceb55433d1")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek:PMBT2222A,215")
+		(at 132.588 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c63121-6835-48d3-a63d-eea058093cf0")
+		(property "Reference" "Q4"
+			(at 147.066 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMBT2222A,215"
+			(at 134.62 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gotek:SOT95P280X130-3N"
+			(at 146.558 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2222A.pdf"
+			(at 146.558 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMBT2222; PMBT2222A - NPN switching transistors"
+			(at 132.588 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 146.558 488.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PMBT2222A-T/R"
+			(at 146.558 588.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D"
+			(at 146.558 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 146.558 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMBT2222A,215"
+			(at 146.558 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1cfa04d7-382f-4eb8-a5d5-b0c64d72e228")
+		)
+		(pin "2"
+			(uuid "0ee6e959-cfb3-42fd-9bf6-ff90a572c53f")
+		)
+		(pin "1"
+			(uuid "a9ca14ec-e916-4c36-ac49-5cfac7bc73dc")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 65.786 64.262 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1017a03-e216-4dff-8186-0700b3bb9cf9")
+		(property "Reference" "#PWR012"
+			(at 65.786 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.786 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.786 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.786 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 65.786 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "692ee981-be20-479b-b364-5911c197300b")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 127.508 69.342 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1cea4eb-3b32-4a85-9253-5aeb6fb03213")
+		(property "Reference" "DID1"
+			(at 127.508 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 127.508 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Gotek:SODFL2512X90N"
+			(at 127.508 73.787 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 127.508 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 127.508 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127.508 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127.508 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cef42026-1428-4314-9757-ceefca118ab5")
+		)
+		(pin "1"
+			(uuid "4df814f5-126d-4152-90f6-80a099c862a6")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "DID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHC04")
+		(at 179.578 47.244 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f66720de-5121-4156-b48e-022e8ec38bd0")
+		(property "Reference" "U1"
+			(at 177.546 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC04"
+			(at 175.514 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 179.578 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
+			(at 179.578 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 179.578 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01193117-7832-4d09-baa7-9a4c0e924366")
+		)
+		(pin "8"
+			(uuid "0fe12de2-4943-4251-ae76-af8309364506")
+		)
+		(pin "12"
+			(uuid "906e1a55-dcf0-40b2-b5e0-2b8bbdf94731")
+		)
+		(pin "1"
+			(uuid "d7bd63ef-1afe-40d5-8d1c-779a0421dfc9")
+		)
+		(pin "7"
+			(uuid "b8f3024d-4587-42d1-ad78-8289f4bf2aa7")
+		)
+		(pin "5"
+			(uuid "cc5fa2f0-53b2-4503-8705-03b021172067")
+		)
+		(pin "9"
+			(uuid "5fc5b2eb-cceb-40bf-9820-e3f7c335fa01")
+		)
+		(pin "10"
+			(uuid "a300babf-3e78-40b0-831f-5bfc589f89a1")
+		)
+		(pin "14"
+			(uuid "0277b337-e503-4f08-9ef7-f283da367a44")
+		)
+		(pin "13"
+			(uuid "956d1211-fe97-4bca-bc02-500c386e7378")
+		)
+		(pin "11"
+			(uuid "b5d4b8c9-3e3d-417b-a095-56b13fa3c947")
+		)
+		(pin "3"
+			(uuid "7ed8cb21-54fc-4706-8e88-b72fe3bcc999")
+		)
+		(pin "4"
+			(uuid "a0f88a7b-0bd3-4e7c-b90f-f4a8f1cf37f7")
+		)
+		(pin "6"
+			(uuid "96ae6b98-e45d-49e5-9ced-699ed65dc8eb")
+		)
+		(instances
+			(project "Gotek"
+				(path "/1f82a6ca-2e95-41e0-9ba6-22d493235ff3/267e5c49-10c2-470c-80e5-10508b29d2e1"
+					(reference "U1")
+					(unit 7)
+				)
+			)
+		)
+	)
+)
