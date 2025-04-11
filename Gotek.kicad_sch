@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "Gotek(?) Handrawn Schematic, Layout and Gerbers")
-		(date "2025-02-20")
-		(rev "1.0")
+		(date "2025-04-11")
+		(rev "1.1")
 		(company "LiveBoxAndy")
 		(comment 1 "chip were removed to allow the routing underneath to be checked.")
 		(comment 2 "with the cable interface from an SFR1M44-DU26 (SFRC2D.B). The processor and the 74 ")
 		(comment 3 "Based on pictures and meter readings of an SRFKC30.AT4.35 for the processor bits mated")
-		(comment 4 "Correct JK1 and J8 Pin Idents. Point-Point wiring did not change.")
+		(comment 4 "Changed R21 to 12K to reduce brightness.")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -16387,7 +16387,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "12K"
 			(at 255.778 119.38 90)
 			(effects
 				(font
@@ -17073,7 +17073,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c62ebe41-d4ca-4dee-87c1-4752eba85fc1")
 		(property "Reference" "L5"
 			(at 263.398 133.858 90)

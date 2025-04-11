@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "Gotek(?) Handrawn Schematic, Layout and Gerbers")
-		(date "2025-02-20")
-		(rev "1.0")
+		(date "2025-04-11")
+		(rev "1.1")
 		(company "LiveBoxAndy")
 		(comment 1 "chip were removed to allow the routing underneath to be checked.")
 		(comment 2 "with the cable interface from an SFR1M44-DU26 (SFRC2D.B). The processor and the 74 ")
 		(comment 3 "Based on pictures and meter readings of an SRFKC30.AT4.35 for the processor bits mated")
-		(comment 4 "Correct JK1 and J8 Pin Idents. Point-Point wiring did not change.")
+		(comment 4 "Changed R21 to 12K to reduce brightness.")
 	)
 	(lib_symbols
 		(symbol "74xx:74AHC04"
